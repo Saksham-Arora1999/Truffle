@@ -1,0 +1,9 @@
+.bill-list {
+  list-style: none;
+  padding: 0;
+}
+
+.bill-list__fallback {
+  color: white;
+  text-align: center;
+}

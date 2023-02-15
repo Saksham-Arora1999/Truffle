@@ -1,0 +1,60 @@
+.bill-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  /* margin: 1rem 0; */
+  background-color: #4b4b4b;
+}
+
+.bill-item__description {
+  display: flex;
+  /* flex-direction: column-reverse; */
+  /* gap: 10rem; */
+  /* align-items: flex-end; */
+  /* flex-flow: column-reverse; */
+  /* justify-content: flex-end; */
+  /* flex: 1; */
+  /* justify-content: space-between; */
+  /* align-content: end; */
+}
+
+.bill-item h2 {
+  color: #3a3a3a;
+  font-size: 1rem;
+  margin: 0 1rem;
+  color: white;
+  align-self: start;
+}
+.bill-item__info {
+  display: flex;
+  flex-direction: column;
+}
+.bill-item__price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #40005d;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+  margin-left: auto;
+}
+
+@media (min-width: 580px) {
+  .bill-item__description {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+  }
+
+  .bill-item__description h2 {
+    font-size: 1.25rem;
+  }
+
+  .bill-item__price {
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
